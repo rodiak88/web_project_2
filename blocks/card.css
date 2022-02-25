@@ -1,0 +1,37 @@
+.card {
+  margin: 0;
+  width: 600px;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto 32px;
+}
+
+.card__list-items {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0;
+}
+
+.card__list-item {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid #fff;
+  flex-grow: 1;
+}

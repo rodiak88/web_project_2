@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rudi Abou Karam" />
+    <meta
+      name="description"
+      content="Website for the Practicum Coffee Shop. The best coffee in town!"
+    />
+    <meta name="keywords" content="coffee, shop, baked goods, cookies" />
+    <title>Practicum Coffee Shop</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="./favicon_circles.ico" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffee_shop.svg"
+            alt="Practicum Coffee Shop logo"
+            class="logo"
+          />
+          <div class="nav__links">
+            <a class="nav__link" href="#menu">Menu</a>
+            <a class="nav__link" href="#recipes">Recipes</a>
+            <a class="nav__link" href="#reservation">Book a table</a>
+            <a class="nav__link" href="#footer">Contacts</a>
+          </div>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span>in the
+          Practicum Library
+        </h1>
+        <p class="header__description">
+          <span class="header__description-span">
+            Welcome to our study zone! We've got the coffee to energize you
+            and</span
+          >
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Inside a coffee shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div class="header__hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Practicum
+          </p>
+        </div>
+      </header>
+      <main class="content">
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="menu__cards">
+            <div class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list-items">
+                <li class="card__list-item">
+                  Regular (12 oz)
+                  <div class="card__list-divider"></div>
+                  $1
+                </li>
+                <li class="card__list-item">
+                  Large (16 oz)
+                  <div class="card__list-divider"></div>
+                  $1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 oz)
+                  <div class="card__list-divider"></div>
+                  $1.5
+                </li>
+                <li class="card__list-item">
+                  Party-size (24 oz, decaf)
+                  <div class="card__list-divider"></div>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)
+                  <div class="card__list-divider"></div>
+                  $1.25
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__title">Espresso</h3>
+              <ul class="card__list-items">
+                <li class="card__list-item">
+                  Macchiato
+                  <div class="card__list-divider"></div>
+                  $2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <div class="card__list-divider"></div>
+                  $2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <div class="card__list-divider"></div>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)
+                  <div class="card__list-divider"></div>
+                  $10
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__title">Baked Goods</h3>
+              <ul class="card__list-items">
+                <li class="card__list-item">
+                  Almond Croissant
+                  <div class="card__list-divider"></div>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread
+                  <div class="card__list-divider"></div>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie
+                  <div class="card__list-divider"></div>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake
+                  <div class="card__list-divider"></div>
+                  $3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie
+                  <div class="card__list-divider"></div>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug’uette
+                  <div class="card__list-divider"></div>
+                  $0.25
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <ul class="recipes__videos">
+            <li class="recipes__video">
+              <iframe
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                title="YouTube video player"
+                class="recipes__iframe"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                Aeropress recipe<span class="recipes__caption-divider"></span>~5
+                min
+              </div>
+            </li>
+            <li class="recipes__video">
+              <iframe
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="YouTube video player"
+                class="recipes__iframe"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                French press recipe<span class="recipes__caption-divider"></span
+                >~15 min
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <div class="reservation__form">
+            <form class="form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name *</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  name="name"
+                  id="name"
+                  placeholder="Name Surname"
+                  required
+                />
+                <label for="guests" class="form__label"
+                  >Number of guests *</label
+                >
+                <input
+                  type="number"
+                  class="form__input"
+                  name="guests"
+                  id="guests"
+                  min="1"
+                  max="8"
+                  placeholder="1 - 8"
+                  required
+                />
+                <label for="date" class="form__label">Date & time *</label>
+                <input
+                  type="date"
+                  class="form__input"
+                  name="date"
+                  id="date"
+                  required
+                />
+                <label for="email" class="form__label">Your email *</label>
+                <input
+                  type="email"
+                  class="form__input"
+                  name="email"
+                  id="email"
+                  placeholder="email@email.com"
+                  required
+                />
+              </fieldset>
+              <button type="submit" class="form__button">Book a table</button>
+              <fieldset class="form__fieldset">
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  name="terms"
+                  id="terms"
+                  required
+                />
+                <label for="terms" class="form__label form__label_checkbox"
+                  >I agree with the terms of use</label
+                >
+              </fieldset>
+            </form>
+          </div>
+        </section>
+        <section class="about">
+          <h2 class="about__title">
+            About the<span class="about__title-span">coffee shop</span>
+          </h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features<span class="about__paragraph-span"
+                >6 tables and free WiFi.</span
+              >
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so
+              we<span class="about__paragraph-span">
+                don't sell single-use cups. But you can buy one of our reusable
+                cups!</span
+              >
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_practicum.svg"
+            alt="White Practicum logo"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <h4 class="footer__social__heading">Social media</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook icon"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram icon"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2022 Rudi Abou Karam</p>
+      </footer>
+    </div>
+  </body>
+</html>

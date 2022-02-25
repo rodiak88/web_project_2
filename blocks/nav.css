@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 80px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+}
+
+.nav__link {
+  color: #000;
+  font-weight: 500;
+  transition: color 0.3s linear 0.1s;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
