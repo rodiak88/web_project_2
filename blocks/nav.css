@@ -13,6 +13,7 @@
 .nav__link {
   color: #000;
   font-weight: 500;
+  text-decoration: none;
   transition: color 0.3s linear 0.1s;
 }
 
